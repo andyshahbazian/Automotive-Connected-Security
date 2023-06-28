@@ -109,3 +109,10 @@ Strong cryptography: The HSM can be used to perform strong cryptographic operati
 Physical security: The HSM is a physical device that is designed to be tamper-resistant, preventing unauthorized access to the keys.
 Remote management: The HSM can be managed remotely, making it easy to administer the keys.
 The combination of the TPM and the HSM provides a high level of security for sensitive data and cryptographic operations.
+
+##Parsec
+
+![image](https://github.com/andyshahbazian/TPM-HSM/assets/16087670/909e0c06-7801-4851-8d22-f1dd485266e3)
+
+Parsec stands for Platform AbstRaction for SECurity, an open-source project that aims to offer a standardized API for hardware security and cryptographic services in a platform-agnostic manner. By implementing this abstraction layer, Parsec ensures that workloads remain independent of specific physical platform details. This approach enables seamless delivery of cloud-native applications within data centers and at the edge, facilitating efficient and flexible deployment.
+
