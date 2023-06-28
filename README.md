@@ -53,6 +53,16 @@ Here are some of the specific ARM Cortex cores that are used in the S32G family:
 Cortex-A53: The Cortex-A53 is a high-performance, 32-bit Arm Cortex core that is designed for embedded applications.
 Cortex-M7: The Cortex-M7 is a high-performance, 32-bit Arm Cortex core that is designed for microcontroller applications.
 Cortex-R52: The Cortex-R52 is a high-performance, 32-bit Arm Cortex core that is designed for real-time applications.
+
+## CLoud HSM on AWS
+
+AWS CloudHSM Documentation: https://docs.aws.amazon.com/cloudhsm/latest/userguide/
+
+This documentation provides detailed information on how to use AWS CloudHSM, including:
+
+Creating and managing HSMs
+Using HSMs to store and manage cryptographic keys
+Integrating HSMs with your applications
 The S32G family also includes a number of other features, such as:
 
 Low Latency Communication Engine (LLCE): The LLCE is a hardware accelerator that can be used to accelerate automotive networks.
