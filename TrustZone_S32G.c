@@ -1,3 +1,13 @@
+
+
+//This code will create a secure application and load it into memory.
+//The secure application will then be started and will run until it finishes. Once the secure application finishes, 
+//it will be destroyed and the TrustZone and Parsec libraries will be shut down.
+
+//This is just a basic example of how to use ARM Cortex 53's TrustZone in conjunction with ARM Parsec
+//to secure applications. For more information, please see the ARM TrustZone and ARM Parsec documentation.
+
+
 #include <arm_trustzone.h>
 #include <arm_parsec.h>
 
