@@ -78,3 +78,34 @@ an idea would be in the sample code we will create a secure application and load
 
 This is just a basic example of how to use ARM Parsec to secure AWS Greengrass applications. For more information, please see the ARM Parsec and AWS Greengrass documentation.
 
+
+
+## Sample Workflow
+                                    +--------+
+                                    | TPM     |
+                                    +--------+
+                                        |
+                                        |
+                                    +--------+
+                                    | HSM     |
+                                    +--------+
+                                        |
+                                        |
+                                    +--------------+
+                                    |Secure Server  |
+                                    +--------------+
+
+
+In this diagram, the TPM (Trusted Platform Module) is a secure cryptoprocessor that is embedded in the server. The HSM (Hardware Security Module) is a separate device that is used to store and manage cryptographic keys. The server uses the TPM and the HSM to protect sensitive data and to perform cryptographic operations.
+
+The TPM provides a number of security features, including:
+
+Secure boot: The TPM can be used to verify the integrity of the boot process, ensuring that the server only boots from trusted software.
+Secure storage: The TPM can be used to store cryptographic keys in a secure manner, preventing unauthorized access to the keys.
+Secure execution: The TPM can be used to create a secure execution environment for applications, preventing malicious software from accessing the keys.
+The HSM provides a number of security features, including:
+
+Strong cryptography: The HSM can be used to perform strong cryptographic operations, such as encryption and decryption.
+Physical security: The HSM is a physical device that is designed to be tamper-resistant, preventing unauthorized access to the keys.
+Remote management: The HSM can be managed remotely, making it easy to administer the keys.
+The combination of the TPM and the HSM provides a high level of security for sensitive data and cryptographic operations.
