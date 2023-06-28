@@ -69,3 +69,12 @@ This documentation provides detailed information on how to use AWS CloudHSM, inc
 Creating and managing HSMs
 Using HSMs to store and manage cryptographic keys
 Integrating HSMs with your applications
+
+
+## Securing Greengrass with Parsec
+ARM Parsec is a software framework that provides a secure execution environment for applications on ARM-based devices. It uses the ARM TrustZone technology to create a secure partition in the device's memory where applications can run in a trusted environment.
+AWS Greengrass is a cloud-based platform that allows you to run code and services on edge devices. It provides a secure way to connect your devices to the cloud and to share data and insights.
+an idea would be in the sample code we will create a secure application and load the Greengrass application into memory. The Greengrass application will then be started and will run until it finishes. Once the Greengrass application finishes, it will be destroyed and the Parsec library will be shut down.
+
+This is just a basic example of how to use ARM Parsec to secure AWS Greengrass applications. For more information, please see the ARM Parsec and AWS Greengrass documentation.
+
