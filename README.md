@@ -1,8 +1,9 @@
 # TPM-HSM
 Edge TPM and Cloud HSM for Automotive workloads 
 
+Inspired by recent NIST mandates, we propose an architecture combining edge trust zone and AWS cloud HSM for cryptographic key management. This solution has gained traction in the Automotive industry and fills a gap in the connected mobility framework.
 
-TEE (Trusted Execution Environment) is available by default on some ARM Cortex processors. The ARM TrustZone technology provides the foundation for TEEs on ARM Cortex processors. TrustZone is a security extension that allows the processor to be divided into two separate security domains: the secure world and the non-secure world. The secure world is isolated from the non-secure world, and it can only be accessed by trusted software.
+Background: federal contractors are mandated with addressing compliance requirements, including DFARS and DoD acquisition standards (NIST 800-171). The lack of managed security at the edge for automotive workloads, specifically utilizing ARM trust zone and Intel SGX, posed challenges for certificate management among OEMs and aftermarket manufacturers. However, given the mandatory requirement for HSMs in line with federal regulations, the need for secure hardware maintenance data for the ARMY became apparent.TEE (Trusted Execution Environment) is available by default on some ARM Cortex processors. The ARM TrustZone technology provides the foundation for TEEs on ARM Cortex processors. TrustZone is a security extension that allows the processor to be divided into two separate security domains: the secure world and the non-secure world. The secure world is isolated from the non-secure world, and it can only be accessed by trusted software.
 
 A TEE, is a secure area of memory on a computing device where sensitive data and code can be executed. The TEE is isolated from the rest of the system, so it cannot be accessed by unauthorized users or processes. This makes the TEE ideal for applications that require high levels of security, such as financial transactions, medical records, and government data.
 
