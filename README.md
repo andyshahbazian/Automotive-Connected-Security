@@ -1,7 +1,11 @@
 # TPM-HSM
 Edge TPM and Cloud HSM for Automotive workloads 
 
-TEE is available by default on some ARM Cortex processors. The ARM TrustZone technology provides the foundation for TEEs on ARM Cortex processors. TrustZone is a security extension that allows the processor to be divided into two separate security domains: the secure world and the non-secure world. The secure world is isolated from the non-secure world, and it can only be accessed by trusted software.
+A TEE, is a secure area of memory on a computing device where sensitive data and code can be executed. The TEE is isolated from the rest of the system, so it cannot be accessed by unauthorized users or processes. This makes the TEE ideal for applications that require high levels of security, such as financial transactions, medical records, and government data.
+
+The TEE is implemented in hardware and software. The hardware provides the physical isolation of the TEE, while the software provides the security mechanisms that protect the TEE from unauthorized access.
+
+TEE (Trusted Execution Environment) is available by default on some ARM Cortex processors. The ARM TrustZone technology provides the foundation for TEEs on ARM Cortex processors. TrustZone is a security extension that allows the processor to be divided into two separate security domains: the secure world and the non-secure world. The secure world is isolated from the non-secure world, and it can only be accessed by trusted software.
 
 Some ARM Cortex processors that support TEE by default include:
 
@@ -11,10 +15,6 @@ Cortex-A35
 Cortex-M33
 Cortex-M23
 
-
-A TEE, or trusted execution environment, is a secure area of memory on a computing device where sensitive data and code can be executed. The TEE is isolated from the rest of the system, so it cannot be accessed by unauthorized users or processes. This makes the TEE ideal for applications that require high levels of security, such as financial transactions, medical records, and government data.
-
-The TEE is implemented in hardware and software. The hardware provides the physical isolation of the TEE, while the software provides the security mechanisms that protect the TEE from unauthorized access.
 
 There are two main types of TEEs:
 
